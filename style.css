@@ -1,0 +1,210 @@
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#det{
+    margin: 10px;
+    font-size: 16px;
+}
+
+#bet{
+  display: none;
+  z-index: 1;
+  overflow-x: hidden;
+    transition: 0.5s;
+    margin: 10px;
+    font-size: 16px;
+}
+#cet{
+  display: none;
+    z-index: 1;
+  overflow-x: hidden;
+    transition: 0.5s;
+    margin: 10px;
+     font-size: 16px;
+}
+
+#fet{
+  display: none;
+    z-index: 1;
+  overflow-x: hidden;
+    transition: 0.5s;
+    margin: 10px;
+     font-size: 16px;
+}
+    #get{
+  display: none;
+    z-index: 1;
+  overflow-x: hidden;
+    transition: 0.5s;
+      margin: 10px;
+       font-size: 16px;
+    }
+
+.text{
+  font-weight: 600;
+  font-size: 16px;
+}
+
+button{
+  width:85%;
+  height: 35px;
+  margin: 5px;
+  margin-top: 3px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 0 0 3px  #000000;
+  background-color: orange ;
+  cursor: pointer;
+  font-size: 18px;
+  
+  
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in3{
+    opacity: 0;
+    
+    margin-bottom: -5px;
+    animation: fadeIn3 5s ease-in-out forwards;
+    
+  }
+
+  @keyframes fadeIn3 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+    
+  }
+  .hidden {
+    display: none
+    ;}
+    
+#alertDiv {
+  
+  border: 1px solid orange;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #fff;
+  color: black;
+  height: 115vh;
+  width: 90%;
+  border-radius: 10px;
+
+  position: absolute;
+  top: 0;
+  margin-top: 450px;
+  left: 1;
+  z-index: 1;
+  font-size: 20px;
+}
+
+
+.btn{
+  color: #fff;
+  background-color: Orange ;
+  border: 2px solid orange;
+  border-radius: 5px;
+  width:75px;
+  height :40px;
+  box-shadow: 0 0 0 #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.cm{
+  background-color: whitesmoke;
+  
+  font-size: 10px;
+}
+.cm p{
+  padding:12px;
+  color: orange;
+}
+
+.cm span{
+  margin-left: 64%;
+  color :#000000;
+}
+
+.comment img{
+  width: 60px;
+  height : 60px;
+}
+.im{
+  display:flex;
+}
+
+.im h4{
+  margin-left: 10px;
+margin-top: 2px;
+}
+.ig{
+  padding-left: 69px;
+  font-size: 13px;
+  margin-top: -10px;
+  padding-right: 15px;
+}
+
+
+.like img{
+margin-left: 65px;
+  width:40px;
+  height: 20px;
+}
+.like p{
+  margin-top: 3px;
+  margin-left:2px;
+  font-size: 10px;
+  color: gray;
+}
+
+.like{
+  display:flex;
+}
+.test{
+  width: 90%;
+  height: 30px;
+  margin: 9px;
+  border: 1px solid grey;
+  border-radius: 50px;
+  font-size: 10px;
+  outline-style: none;
+}
+
+.hed h2{
+  padding-left: 10px;
+}
+
+.hed p{
+  font-size: 17px;
+  padding: 10px;
+  padding-right: 12px;
+}
+
+#share p{
+  font-size: 12px;
+  font-weight: 600;
+}
+#claim{
+  font-size: 10px;
+  font-weight: 600;
+  padding: 20px;
+}
